@@ -30,11 +30,11 @@ Constraints:
 Only one valid answer exists.
  
 
-class Solution:
-    def twoSum(self, nums, target):
-        seen = {}
+     class Solution:
+       def twoSum(self, nums, target):
+          seen = {}
 
-        for i, num in enumerate(nums):
+          for i, num in enumerate(nums):
             complement = target - num
 
             if complement in seen:
